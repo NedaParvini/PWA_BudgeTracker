@@ -52,7 +52,7 @@ function uploadTransactions() {
         const transaction = db.transaction(['new_transaction'], 'readwrite');
         const transactionObjectStore = transaction.objectStore('new_transaction');
         transactionObjectStore.clear();
-        alert('All offline transactions have been submitted');
+        alert('Offline transactions have been submitted');
       })
       .catch(err => {
         console.log(err);
@@ -62,4 +62,3 @@ function uploadTransactions() {
 };
 
 window.addEventListener('online', uploadTransactions);
-};
