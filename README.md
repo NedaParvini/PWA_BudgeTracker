@@ -14,7 +14,8 @@ Use of web manifest to the application with the appâ€™s metadata, to let usersâ€
 
 ## Usage
 
-heroku :
+Heroku Link: https://mysterious-sea-57565.herokuapp.com/
+
 
 ## Technologies
 
