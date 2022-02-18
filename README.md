@@ -19,10 +19,15 @@ heroku :
 ## Technologies
 
 JavaScript
+
 MongoDB
+
 Node.js
+
 express.js
+
 mongoose
+
 morgan
 
 ## Screenshot
